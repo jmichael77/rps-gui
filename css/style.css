@@ -1,0 +1,114 @@
+body {
+  background-color: #28384E;
+}
+
+#rps-title {
+  text-align: center;
+  font-size: 38px;
+  color: #B0AFB7;
+}
+
+#input {
+  text-align: center;
+  width: 1000px;
+  margin-left: 140px;
+  margin-top: 50px;
+  display: block;
+  color: white;
+}
+
+/* Result Divs */
+
+#result {
+  display: inline-block;
+  margin-left: 98px;
+  margin-top: 30px;
+  width: 400px;
+  height: 150px;
+  text-align: center;
+  background-color: #2C3D55;
+}
+
+#user-result {
+  display: inline-block;
+  margin-left: 140px;
+  margin-top: 20px;
+  width: 200px;
+  height: 75px;
+  text-align: center;
+  background-color: #2C3D55;
+}
+
+#cpu-result {
+  display: inline-block;
+  margin-left: 95px;
+  margin-top: 20px;
+  width: 200px;
+  height: 75px;
+  text-align: center;
+  background-color: #2C3D55;
+}
+
+/* Result h3 & Rainbow Main Result */
+
+#user-h3 {
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 47px;
+  margin-left: 174px;
+  color: #B0AFB7;
+}
+
+#rainbow {
+  font-size: 80px;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+  margin-left: 30px;
+}
+
+#cpu-h3 {
+  font-size: 24px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 130px;
+  margin-top: 47px;
+  color: #B0AFB7;
+}
+
+/* Result h2 */
+
+#user-h2 {
+  font-size: 28px;
+  margin-left: 65px;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+}
+
+#cpu-h2 {
+  font-size: 28px;
+  margin-left: 45px;
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: absolute;
+}
+
+/* Button */
+
+#calculate {
+  margin-left: 443px;
+  margin-top: 55px;
+  width: 400px;
+}
+
