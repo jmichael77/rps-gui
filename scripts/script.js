@@ -35,4 +35,9 @@ button.addEventListener("click", function() {
   document.getElementById("user-h2").innerText = player
 
   document.getElementById("cpu-h2").innerText = computer
+
+  if (player === "") {
+     document.getElementById("cpu-h2").innerText = "";
+  }
+
 })
