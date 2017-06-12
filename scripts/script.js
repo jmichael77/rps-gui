@@ -4,10 +4,10 @@
 
 // rock beats scissor
 
-var button = document.getElementById("calculate")
+var button = document.getElementById("calculate");
 
 button.addEventListener("click", function() {
-  var player = document.getElementById("input").value
+  var player = document.getElementById("input").value;
 
   console.log(player);
 
@@ -15,7 +15,7 @@ button.addEventListener("click", function() {
 
   var computer = choices[Math.floor(Math.random() * 3)];
 
-  var output = ["You Win!", "You Lose!", "Draw"]
+  var output = ["You Win!", "You Lose!", "Draw"];
 
   if (player===computer){
   document.getElementById("rainbow").innerText = output[2];
@@ -32,12 +32,12 @@ button.addEventListener("click", function() {
     console.log("You Lose!");
     }
 
-  document.getElementById("user-h2").innerText = player
+  document.getElementById("user-h2").innerText = player;
 
-  document.getElementById("cpu-h2").innerText = computer
+  document.getElementById("cpu-h2").innerText = computer;
 
   if (player === "") {
      document.getElementById("cpu-h2").innerText = "";
   }
 
-})
+});
